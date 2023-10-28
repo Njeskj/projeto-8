@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&M Sistemas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#services">Serviços</a></li>
+                <li class="nav-item"><a href="#products">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="image1.jpg" alt="Imagem 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="image2.jpg" alt="Imagem 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="image3.jpg" alt="Imagem 3">
+            </div>
+            <button id="prevBtn" class="carousel-button" onclick="changeSlide(-1)">Anterior</button>
+            <button id="nextBtn" class="carousel-button" onclick="changeSlide(1)">Próximo</button>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2 class="section-title">Nossos Serviços</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3 class="service-title">Serviço 1</h3>
+                <p class="service-description">Descrição do serviço 1.</p>
+            </div>
+            <div class="service">
+                <h3 class="service-title">Serviço 2</h3>
+                <p class="service-description">Descrição do serviço 2.</p>
+            </div>
+            <div class="service">
+                <h3 class="service-title">Serviço 3</h3>
+                <p class="service-description">Descrição do serviço 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="products-container">
+            <div class="product">
+                <img src="/img/produtos/1.jpg" alt="Produto 1">
+                <h3 class="product-title">Produto 1</h3>
+                <p class="product-description">Descrição do Produto 1.</p>
+            </div>
+            <div class="product">
+                <img src="/img/produtos/2.jpg" alt="Produto 2">
+                <h3 class="product-title">Produto 2</h3>
+                <p class="product-description">Descrição do Produto 2.</p>
+            </div>
+            <div class="product">
+                <img src="/img/produtos/3.jpg" alt="Produto 3">
+                <h3 class="product-title">Produto 3</h3>
+                <p class="product-description">Descrição do Produto 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2023 G&M Sistemas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
